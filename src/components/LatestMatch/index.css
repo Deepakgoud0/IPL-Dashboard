@@ -1,3 +1,4 @@
+/* Write your CSS here */
 .latest-match-container {
   margin-top: 24px;
 }
@@ -105,7 +106,7 @@
 @media screen and (min-width: 768px) {
   .latest-match-team-logo {
     max-width: 200px;
-    max-width: 200px;
+    max-height: 200px;
   }
 }
 

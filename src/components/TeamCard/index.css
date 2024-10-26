@@ -1,9 +1,10 @@
-.link-item {
-  text-decoration: none;
+/* Write your CSS here */
+.team-item {
+  list-style-type: none;
   width: 50%;
 }
 
-.team-card {
+.link {
   display: flex;
   align-items: center;
   background-color: #ffffff33;
@@ -11,15 +12,17 @@
   border-radius: 12px;
   border: 1px solid #ffffff;
   padding-left: 7px;
+  padding-top: 12px;
   padding-bottom: 12px;
   padding-right: 7px;
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 24px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  .team-card {
+  .link {
     padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
